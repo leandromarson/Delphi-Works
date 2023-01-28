@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/29 16:03:44.000.078,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/29 16:07:59.000.650,C:\Works\Delphi Works\Delphi Basico\01\Unit1.dfm=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/29 16:07:59.000.650,C:\Works\Delphi Works\Delphi Basico\01\Unit1.pas=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/29 16:09:17.000.080,C:\Works\Delphi Works\Delphi Basico\01\ProjetoInicial.dproj=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/09/29 16:09:56.000.620,C:\Works\Delphi Works\Delphi Basico\01\Inicial.dfm=C:\Works\Delphi Works\Delphi Basico\01\Unit1.dfm</Transaction>
+    <Transaction>2022/09/29 16:09:56.000.620,C:\Works\Delphi Works\Delphi Basico\01\Inicial.pas=C:\Works\Delphi Works\Delphi Basico\01\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 06:47:51.000.077,=C:\Works\Delphi Works\Delphi Basico\01\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 06:50:20.000.211,C:\Works\Delphi Works\Delphi Basico\01\Tela2.dfm=C:\Works\Delphi Works\Delphi Basico\01\Unit1.dfm</Transaction>
+    <Transaction>2022/09/30 06:50:20.000.211,C:\Works\Delphi Works\Delphi Basico\01\Tela2.pas=C:\Works\Delphi Works\Delphi Basico\01\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/10/06 19:16:05.952,=rtl.dcp</Transaction>
+    <Transaction>2017/10/06 19:16:37.534,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\FloatPanel.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2017/10/06 19:18:20.730,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Componente\Panel1.pas</Transaction>
+    <Transaction>2017/10/06 19:18:20.790,=vcl.dcp</Transaction>
+    <Transaction>2017/10/06 19:21:15.718,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Componente\FloatPanel.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\FloatPanel.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

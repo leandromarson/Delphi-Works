@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/02 15:04:28.000.682,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/02 15:06:22.000.596,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Inicial.dfm</Transaction>
+    <Transaction>2017/10/02 15:06:22.000.596,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Inicial.pas</Transaction>
+    <Transaction>2017/10/02 15:07:24.000.865,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\ProjetoInicial.dproj</Transaction>
+    <Transaction>2017/10/03 18:57:26.000.118,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/03 18:59:02.000.794,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Tela2.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/03 18:59:02.000.795,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Tela2.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

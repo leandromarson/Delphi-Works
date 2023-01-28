@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/10/05 11:52:27.658,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/05 12:13:11.591,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\U_Cronometro.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/05 12:13:11.591,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\U_Cronometro.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/10/05 12:13:37.629,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Temporizador\Temporizador.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

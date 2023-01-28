@@ -1,0 +1,29 @@
+unit U_proex2;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  PropriedadeEx2 = class(TComponent)
+  private
+    { Private declarations }
+  protected
+    { Protected declarations }
+  public
+    { Public declarations }
+  published
+    { Published declarations }
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('Exemplos', [PropriedadeEx2]);
+end;
+
+end.

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/10/06 14:26:41.301,=rtl.dcp</Transaction>
+    <Transaction>2017/10/06 14:27:02.568,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\PropriedadeEx1.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2017/10/06 14:27:22.569,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Componentes\PropriedadeEx1.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\PropriedadeEx1.dproj</Transaction>
+    <Transaction>2017/10/06 14:31:38.198,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Componentes\U_propex1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

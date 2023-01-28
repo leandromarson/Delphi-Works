@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/10/06 12:18:26.507,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 12:19:01.163,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Menu.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/10/06 12:19:01.163,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Menu.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 12:19:05.573,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Formularios.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/10/06 12:34:16.729,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 12:35:23.567,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 12:35:55.880,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\U_Texto.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Unit1.dfm</Transaction>
+    <Transaction>2017/10/06 12:35:55.880,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\U_Texto.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 12:38:15.609,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 12:38:24.539,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\U_Imagem.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Unit1.dfm</Transaction>
+    <Transaction>2017/10/06 12:38:24.539,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\U_Imagem.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Formulários\Unit1.pas</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Menu.pas"/>
+    <File Path="Menu.dfm"/>
+    <File Path="U_Texto.pas"/>
+    <File Path="U_Texto.dfm"/>
+    <File Path="U_Imagem.pas"/>
+    <File Path="U_Imagem.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

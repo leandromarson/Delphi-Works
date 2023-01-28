@@ -1,0 +1,56 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 273
+  Width = 374
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Works\Delphi Works\ProjetoCRUD\PROJETO.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'Server=localhost'
+      'Port=3050'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 48
+    Top = 56
+  end
+  object FDQuery1: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT * FROM CLIENTES;')
+    Left = 104
+    Top = 168
+    object FDQuery1ID: TIntegerField
+      FieldName = 'ID'
+      Origin = 'ID'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object FDQuery1NOME: TStringField
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Required = True
+      Size = 50
+    end
+    object FDQuery1CPF: TStringField
+      FieldName = 'CPF'
+      Origin = 'CPF'
+    end
+    object FDQuery1CELULAR: TStringField
+      FieldName = 'CELULAR'
+      Origin = 'CELULAR'
+    end
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 224
+    Top = 160
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    VendorLib = 'C:\Windows\System32\FBCLIENT.DLL'
+    Left = 176
+    Top = 48
+  end
+end

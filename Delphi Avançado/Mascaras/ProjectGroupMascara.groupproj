@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A0768994-6800-4903-8798-2E8480E617EC}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Mascara.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FormMask.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Mascara">
+        <MSBuild Projects="Mascara.dproj"/>
+    </Target>
+    <Target Name="Mascara:Clean">
+        <MSBuild Projects="Mascara.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Mascara:Make">
+        <MSBuild Projects="Mascara.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FormMask">
+        <MSBuild Projects="FormMask.dproj"/>
+    </Target>
+    <Target Name="FormMask:Clean">
+        <MSBuild Projects="FormMask.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FormMask:Make">
+        <MSBuild Projects="FormMask.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Mascara;FormMask"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Mascara:Clean;FormMask:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Mascara:Make;FormMask:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

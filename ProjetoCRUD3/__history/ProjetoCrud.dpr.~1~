@@ -1,0 +1,14 @@
+program ProjetoCrud;
+
+uses
+  Vcl.Forms,
+  U_menu in 'U_menu.pas' {frm_menu};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tfrm_menu, frm_menu);
+  Application.Run;
+end.

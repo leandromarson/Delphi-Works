@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/10/09 11:51:04.207,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 11:51:13.251,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\FormMask.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/10/09 11:51:24.095,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Componentes Mascaras\U_form.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/10/09 11:51:24.095,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Componentes Mascaras\U_form.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 11:51:27.792,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Componentes Mascaras\FormMask.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\FormMask.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

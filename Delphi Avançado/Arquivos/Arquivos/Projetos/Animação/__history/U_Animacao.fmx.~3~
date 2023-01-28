@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 402
+  ClientWidth = 460
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btn_play: TButton
+    Cursor = crHandPoint
+    Enabled = False
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 184.000000000000000000
+    Position.Y = 256.000000000000000000
+    Scale.X = 1.500000000000000000
+    Scale.Y = 1.500000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'playtoolbutton'
+    TabOrder = 0
+    Text = 'btn_play'
+    TextSettings.Font.Size = 72.000000000000000000
+    OnClick = btn_playClick
+  end
+  object Circle1: TCircle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF20968A
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Position.X = 96.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 281.000000000000000000
+    Size.Height = 177.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCadetblue
+    Stroke.Thickness = 15.000000000000000000
+    Stroke.Dash = Dot
+    object FloatAnimation1: TFloatAnimation
+      Duration = 3.000000000000000000
+      OnProcess = FloatAnimation1Process
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StopValue = 360.000000000000000000
+    end
+  end
+  object txt_duracao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 192.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 208.000000000000000000
+    Position.Y = 312.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Dura'#231#227'o'
+    TabOrder = 3
+  end
+end

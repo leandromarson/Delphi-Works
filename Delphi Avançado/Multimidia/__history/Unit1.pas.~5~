@@ -1,0 +1,48 @@
+unit Unit1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Controls.Presentation, FMX.Media;
+
+type
+  TForm1 = class(TForm)
+    player_control: TMediaPlayerControl;
+    MediaPlayer1: TMediaPlayer;
+    btn_abrir: TButton;
+    OpenDialog1: TOpenDialog;
+    lbl_nome_arquivo: TLabel;
+    btn_play: TButton;
+    procedure btn_abrirClick(Sender: TObject);
+    procedure btn_playClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+procedure TForm1.btn_abrirClick(Sender: TObject);
+begin
+  if OpenDialog1.Execute then
+  begin
+    MediaPlayer1.FileName := OpenDialog1.FileName;
+    lbl_nome_arquivo.Text := ExtractFileName(OpenDialog1.FileName);
+    btn_play.Enabled := true;
+  end;
+end;
+
+procedure TForm1.btn_playClick(Sender: TObject);
+begin
+  MediaPlayer1.Play;
+end;
+
+end.

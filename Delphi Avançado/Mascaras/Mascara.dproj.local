@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/11/28 10:53:36.000.919,=rtl.dcp</Transaction>
+    <Transaction>2022/11/28 10:53:51.000.650,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Meascara.dproj</Transaction>
+    <Transaction>2022/11/28 10:54:01.000.985,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Meascara.dproj=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Mascara.dproj</Transaction>
+    <Transaction>2022/11/28 10:54:29.000.497,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Mascara.dproj=C:\Works\Delphi Works\Delphi Avançado\Mascaras\Mascara.dproj</Transaction>
+    <Transaction>2023/01/24 14:03:08.000.509,=C:\Works\Delphi Works\Delphi Avançado\Mascaras\MaskEdit1.pas</Transaction>
+    <Transaction>2023/01/24 14:03:08.000.509,=vcl.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

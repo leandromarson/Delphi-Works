@@ -1,0 +1,76 @@
+object frm_timer: Tfrm_timer
+  Left = 0
+  Top = 0
+  Caption = 'Timer'
+  ClientHeight = 174
+  ClientWidth = 265
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbl_segundos: TLabel
+    Left = 76
+    Top = 24
+    Width = 22
+    Height = 48
+    Caption = '0'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 56
+    Top = 24
+    Width = 14
+    Height = 48
+    Caption = ':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl_minutos: TLabel
+    Left = 20
+    Top = 24
+    Width = 22
+    Height = 48
+    Caption = '0'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object btn_inicial: TSpeedButton
+    Left = 48
+    Top = 128
+    Width = 24
+    Height = 24
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 152
+    Top = 108
+    Width = 57
+    Height = 30
+    VisibleButtons = [btPlay, btPause]
+    DoubleBuffered = True
+    Visible = False
+    ParentDoubleBuffered = False
+    TabOrder = 0
+  end
+  object Timer1: TTimer
+    Left = 192
+    Top = 16
+  end
+end

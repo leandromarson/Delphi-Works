@@ -1,0 +1,381 @@
+object frm_principal: Tfrm_principal
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  Caption = 'frm_principal'
+  ClientHeight = 430
+  ClientWidth = 675
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object P_Titulo: TPanel
+    Left = 0
+    Top = 0
+    Width = 675
+    Height = 50
+    Align = alTop
+    Caption = 'Sistema Exemplo'
+    Color = clDefault
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -27
+    Font.Name = 'Small Fonts'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+    ExplicitWidth = 480
+    DesignSize = (
+      675
+      50)
+    object Image1: TImage
+      Left = 634
+      Top = 8
+      Width = 32
+      Height = 32
+      Cursor = crHandPoint
+      Anchors = [akTop, akRight]
+      Picture.Data = {
+        0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
+        00200806000000737A7AF40000000473424954080808087C0864880000000970
+        48597300000B1300000B1301009A9C18000003F44944415478DAAD974B681351
+        1486EF9D89896950C1565B6D57E2A3115FD83489D92945A9B872E30305D12AD6
+        8D2822BA11C44D450AAEDA622BAEAC3BDDA845A18B828FA60D62F109BEFAB050
+        6DBB506C934E9319FF33C984743293B90D39103299DCB9FF77CE3DE7DC3B9C09
+        5A7F30B89C6BDA01A6697B5449DA2EA9EA3A7C2FCBFCFD179F1FB837A449522F
+        AE9F840706FE8ACCCB9D060C04029B207485ABEA6126494B85685535CE387F80
+        E75A7645A35F8A0288D5D5952565F90684CF4358168D9409240990DB2959BE16
+        E9EF8F0B0344EBEB3722D48F20BCB92861B369DA3B401C04C457478057E1F04E
+        78FD4C62ACA224E206036393C8A1BDA1C1C1B7B600E4B9CAF9CB528BE742202F
+        22B991C802BCDDB6CD37E7760F58855DF27A991A8F8BEAE826FB7C2C35336341
+        A12F47C8C8892C00CAAC153F2E9AC7579F3ECD2A1A1BD9A773E79832312124EE
+        59BB96F9DBDBD9E4E3C76CBCB3D30AE21696E27216804A0DE1F960CE7612AF6E
+        6AD2AFE7C6C785200C71775595FE7BBCAB2B1F02D59172B9FCB4143CE3FD3D5C
+        9C30877D6B77B73EA1614E109E356B586D4707F364C4C912C3C3ECFDF1E34C55
+        1433C4DD502CD6C451EF2B529C4F583519F282BC1181B013A7B1F3D3D379B02A
+        63B388421547E61F45B3B86F1752110812D5C50191151F19619F9A9B2DC50DA3
+        EECAA3814017BC3F55705D2D040C083233606274342D3E35C50A9AA6DDE1AF83
+        C141D47D8039981D04A29727FE19E28A93781A204A11984604563A8FB686C8B5
+        C4D818FB7CF6AC9838CB74474440410496083DC1AC934D17FFF9332D3E39293A
+        1525A2525A000AFDEFDF8B06980240B99038D6BA9612CE245E2C84B104624968
+        214E82D4C93C3535C5416492D0B90C4DED5517A284831055815E86C5405019A2
+        0D1F8117DDB6E2D5D5CCDFD6B650DC546AEED5AB8B83D0B4435C3F6CAA2AB562
+        6F31E286B92B2BD310784604825A71C2EBADD43723B4E3BB08E5C9DC01B49FD3
+        66B4409CDA2BF5769B3AB783787FEC58DE790209D88993F3191DE07528B4414A
+        A53E220AAEDC41B9DBB193B81D84D5760CEFE75DC9A4BFFECD9B6FD90309A270
+        0B51B8649E9020CA1B1A6C77354B08DAC0B074533D3D96071278DF02EFAFD275
+        16808EE1F3B21C45496E313F20B9DDF9FBB983491E0F53E7E6F2FFC0CBCBACCF
+        17DEDDD7975800408613F17ABCDDBCC2CD558B52133555FD85B923C158ECBB71
+        2BEF588EA5D8A171FEBCE41010C76BDB3E847E28F7B6E58B0945424EA51E2227
+        B696487C084207733D2F089081F002E23A9AC505737508EB22DB21D01AF77AAF
+        1B6B2E0CB0201AC9E415BC501C418296090ACF62E2FB78EE26955AA1B18E0086
+        BD884496B915653FF2630F7E6EC7F73A94D38ACC247FF0DA45E1A5F5ED9D2D2B
+        7B0A8FFF89CCFB1F3C291C01841F0BA10000000049454E44AE426082}
+      Stretch = True
+      OnClick = Image1Click
+      ExplicitLeft = 439
+    end
+  end
+  object P_Cadastros: TPanel
+    Left = 8
+    Top = 56
+    Width = 130
+    Height = 35
+    Cursor = crHandPoint
+    Caption = 'Cadastros'
+    Color = clGradientActiveCaption
+    ParentBackground = False
+    TabOrder = 1
+    OnClick = P_CadastrosClick
+  end
+  object P_Vendas: TPanel
+    Left = 144
+    Top = 56
+    Width = 130
+    Height = 35
+    Cursor = crHandPoint
+    Caption = 'Vendas'
+    Color = clGradientActiveCaption
+    ParentBackground = False
+    TabOrder = 2
+    OnClick = P_VendasClick
+  end
+  object P_Relatorios: TPanel
+    Left = 280
+    Top = 56
+    Width = 130
+    Height = 35
+    Cursor = crHandPoint
+    Caption = 'Relat'#243'rios'
+    Color = clGradientActiveCaption
+    ParentBackground = False
+    TabOrder = 3
+    OnClick = P_RelatoriosClick
+  end
+  object P_Itens_Cadastro: TPanel
+    Left = 8
+    Top = 112
+    Width = 402
+    Height = 137
+    Color = clInactiveCaptionText
+    ParentBackground = False
+    TabOrder = 4
+    object P_Usuarios: TPanel
+      Left = 5
+      Top = 8
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Usu'#225'rios'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 0
+    end
+    object Panel1: TPanel
+      Left = 138
+      Top = 8
+      Width = 125
+      Height = 83
+      Cursor = crHandPoint
+      Caption = 'Usu'#225'rios'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 1
+    end
+    object Panel2: TPanel
+      Left = 272
+      Top = 8
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Clientes'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 2
+    end
+    object Panel3: TPanel
+      Left = 272
+      Top = 97
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Funcion'#225'rios'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 3
+    end
+    object Panel4: TPanel
+      Left = 272
+      Top = 54
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Produtos'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 4
+    end
+    object Panel6: TPanel
+      Left = 5
+      Top = 57
+      Width = 125
+      Height = 75
+      Cursor = crHandPoint
+      Caption = 'Fornecedores'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 5
+    end
+    object Panel7: TPanel
+      Left = 138
+      Top = 97
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Administradores'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 6
+    end
+  end
+  object P_Items_Vendas: TPanel
+    Left = 144
+    Top = 112
+    Width = 402
+    Height = 137
+    Color = clMoneyGreen
+    ParentBackground = False
+    TabOrder = 5
+    object Panel8: TPanel
+      Left = 5
+      Top = 8
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Estoque'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 0
+    end
+    object Panel9: TPanel
+      Left = 138
+      Top = 8
+      Width = 125
+      Height = 83
+      Cursor = crHandPoint
+      Caption = 'Caixa'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 1
+    end
+    object Panel10: TPanel
+      Left = 272
+      Top = 9
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Sa'#237'da'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 2
+    end
+    object Panel11: TPanel
+      Left = 272
+      Top = 97
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'PDV'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 3
+    end
+    object Panel12: TPanel
+      Left = 272
+      Top = 54
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Balan'#231'o'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 4
+    end
+    object Panel13: TPanel
+      Left = 5
+      Top = 57
+      Width = 125
+      Height = 75
+      Cursor = crHandPoint
+      Caption = 'Vendas'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 5
+    end
+    object Panel14: TPanel
+      Left = 138
+      Top = 97
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Entradas'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 6
+    end
+  end
+  object P_Items_Relatorios: TPanel
+    Left = 280
+    Top = 112
+    Width = 402
+    Height = 137
+    Color = clSkyBlue
+    ParentBackground = False
+    TabOrder = 6
+    object Panel15: TPanel
+      Left = 5
+      Top = 8
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Rel. Produtos'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 0
+    end
+    object Panel16: TPanel
+      Left = 138
+      Top = 8
+      Width = 125
+      Height = 83
+      Cursor = crHandPoint
+      Caption = 'Rel. Caixa'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 1
+    end
+    object Panel17: TPanel
+      Left = 272
+      Top = 9
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Rel. Sa'#237'da'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 2
+    end
+    object Panel18: TPanel
+      Left = 272
+      Top = 97
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Rel. PDV'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 3
+    end
+    object Panel19: TPanel
+      Left = 272
+      Top = 54
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Rel. Balan'#231'o'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 4
+    end
+    object Panel20: TPanel
+      Left = 5
+      Top = 57
+      Width = 125
+      Height = 75
+      Cursor = crHandPoint
+      Caption = 'Rel. Vendas'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 5
+    end
+    object Panel21: TPanel
+      Left = 138
+      Top = 97
+      Width = 125
+      Height = 35
+      Cursor = crHandPoint
+      Caption = 'Rel. Entradas'
+      Color = clGradientActiveCaption
+      ParentBackground = False
+      TabOrder = 6
+    end
+  end
+end

@@ -1,0 +1,34 @@
+unit Component2;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TMySubComp = class(TComponent)
+  property ID:Integer;
+  property Descricao:String;
+  property Ativo:Boolean;
+  TPropiedadeEx2 = class(TComponent)
+  private
+    { Private declarations }
+  protected
+    { Protected declarations }
+  public
+    { Public declarations }
+  published
+    MySubComp1 : TMySubComp;
+    MySubComp2 : TMySubComp;
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('Exemplos', [TPropiedadeEx2]);
+end;
+
+end.

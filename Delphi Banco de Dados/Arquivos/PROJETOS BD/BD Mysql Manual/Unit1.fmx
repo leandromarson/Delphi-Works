@@ -1,0 +1,175 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 256
+  ClientWidth = 394
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object txt_nome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 96.000000000000000000
+    Position.Y = 16.000000000000000000
+    Enabled = False
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_sobrenome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 96.000000000000000000
+    Position.Y = 48.000000000000000000
+    Enabled = False
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_permissao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 96.000000000000000000
+    Position.Y = 80.000000000000000000
+    Enabled = False
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_idade: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 96.000000000000000000
+    Position.Y = 112.000000000000000000
+    Enabled = False
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Text = 'Nome'
+    TabOrder = 11
+  end
+  object Label2: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 48.000000000000000000
+    Text = 'Sobrenome'
+    TabOrder = 4
+  end
+  object Label3: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 80.000000000000000000
+    Text = 'Permissao'
+    TabOrder = 10
+  end
+  object Label4: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 112.000000000000000000
+    Text = 'Idade'
+    TabOrder = 9
+  end
+  object Button1: TButton
+    Cursor = crHandPoint
+    Position.X = 40.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'arrowlefttoolbuttonbordered'
+    TabOrder = 13
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Cursor = crHandPoint
+    Position.X = 264.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'arrowrighttoolbutton'
+    TabOrder = 12
+    Text = 'Button1'
+    OnClick = Button2Click
+  end
+  object btn_novo: TButton
+    Cursor = crHandPoint
+    Position.X = 24.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 20
+    Text = 'Novo'
+    OnClick = btn_novoClick
+  end
+  object btn_salvar: TButton
+    Cursor = crHandPoint
+    Position.X = 88.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Text = 'Salvar'
+    OnClick = btn_salvarClick
+  end
+  object btn_editar: TButton
+    Cursor = crHandPoint
+    Position.X = 152.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    Text = 'Editar'
+    OnClick = btn_editarClick
+  end
+  object btn_excluir: TButton
+    Cursor = crHandPoint
+    Position.X = 216.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = 'Excluir'
+    OnClick = btn_excluirClick
+  end
+  object btn_cancelar: TButton
+    Cursor = crHandPoint
+    Position.X = 280.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 16
+    Text = 'Cancelar'
+    OnClick = btn_cancelarClick
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Server=mysql857.umbler.com'
+      'Port=41890'
+      'DriverID=MySQL')
+    LoginPrompt = False
+    Left = 344
+    Top = 96
+  end
+  object driver: TFDPhysMySQLDriverLink
+    Left = 328
+    Top = 32
+  end
+  object tb_usuarios: TFDTable
+    BeforePost = tb_usuariosBeforePost
+    Connection = FDConnection1
+    Left = 344
+    Top = 208
+  end
+end

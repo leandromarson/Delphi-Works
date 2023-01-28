@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/11/09 12:00:33.000.113,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/09 12:01:20.000.274,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Works\Delphi Works\Delphi Avançado\Formularios\Menu.dfm</Transaction>
+    <Transaction>2022/11/09 12:01:20.000.274,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Works\Delphi Works\Delphi Avançado\Formularios\Menu.pas</Transaction>
+    <Transaction>2022/11/09 12:01:27.000.478,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Works\Delphi Works\Delphi Avançado\Formularios\Formularios.dproj</Transaction>
+    <Transaction>2022/11/24 12:54:10.000.561,=C:\Works\Delphi Works\Delphi Avançado\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/11/24 12:54:42.000.208,C:\Works\Delphi Works\Delphi Avançado\Formularios\U_texto.dfm=C:\Works\Delphi Works\Delphi Avançado\Formularios\Unit1.dfm</Transaction>
+    <Transaction>2022/11/24 12:54:42.000.208,C:\Works\Delphi Works\Delphi Avançado\Formularios\U_texto.pas=C:\Works\Delphi Works\Delphi Avançado\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/11/24 12:57:09.000.734,=C:\Works\Delphi Works\Delphi Avançado\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/11/24 12:57:22.000.199,C:\Works\Delphi Works\Delphi Avançado\Formularios\U_imagem.dfm=C:\Works\Delphi Works\Delphi Avançado\Formularios\Unit1.dfm</Transaction>
+    <Transaction>2022/11/24 12:57:22.000.199,C:\Works\Delphi Works\Delphi Avançado\Formularios\U_imagem.pas=C:\Works\Delphi Works\Delphi Avançado\Formularios\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,41 @@
+unit U_cliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Mask,
+  Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.DBCtrls;
+
+type
+  Tfrm_cad_cliente = class(TForm)
+    Label1: TLabel;
+    p_dados: TPanel;
+    Panel1: TPanel;
+    DBGrid1: TDBGrid;
+    DataSource1: TDataSource;
+    DBNavigator1: TDBNavigator;
+    lbl_id: TLabel;
+    DB_id: TDBEdit;
+    lbl_nome: TLabel;
+    DB_nome: TDBEdit;
+    lbl_cpf: TLabel;
+    DB_cpf: TDBEdit;
+    lbl_celular: TLabel;
+    DB_celular: TDBEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_cad_cliente: Tfrm_cad_cliente;
+
+implementation
+
+{$R *.dfm}
+
+uses U_database;
+
+end.

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/25 08:33:25.000.411,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/26 14:00:58.000.122,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 10:50:32.000.692,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 10:53:26.000.929,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Works\Delphi Works\ProjetoCRUD3\U_menu.pas</Transaction>
+    <Transaction>2023/01/28 10:53:26.000.929,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Works\Delphi Works\ProjetoCRUD3\U_menu.dfm</Transaction>
+    <Transaction>2023/01/28 10:53:34.000.498,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Works\Delphi Works\ProjetoCRUD3\ProjetoCrud.dproj</Transaction>
+    <Transaction>2023/01/28 10:55:52.000.295,=C:\Works\Delphi Works\ProjetoCRUD3\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 10:56:33.000.266,C:\Works\Delphi Works\ProjetoCRUD3\U_clientes.pas=C:\Works\Delphi Works\ProjetoCRUD3\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 10:56:33.000.266,C:\Works\Delphi Works\ProjetoCRUD3\U_clientes.dfm=C:\Works\Delphi Works\ProjetoCRUD3\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,241 @@
+unit Unit1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf,
+  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys, FireDAC.Phys.MSAcc, FireDAC.Phys.MSAccDef, FireDAC.FMXUI.Wait,
+  FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
+  FMX.StdCtrls, FMX.Controls.Presentation, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client, FMX.Edit, FMX.Objects;
+
+type
+  TForm1 = class(TForm)
+    FDConnection1: TFDConnection;
+    tb_usuarios: TFDTable;
+    Button1: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    txt_nome: TEdit;
+    txt_sobrenome: TEdit;
+    txt_permissao: TEdit;
+    txt_idade: TEdit;
+    btn_novo: TButton;
+    btn_editar: TButton;
+    btn_salvar: TButton;
+    btn_excluir: TButton;
+    btn_cancelar: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    imagem: TImage;
+    btn_carregar: TButton;
+    OpenDialog1: TOpenDialog;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure btn_novoClick(Sender: TObject);
+    procedure btn_salvarClick(Sender: TObject);
+    procedure tb_usuariosBeforePost(DataSet: TDataSet);
+    procedure tb_usuariosBeforeInsert(DataSet: TDataSet);
+    procedure btn_excluirClick(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure btn_cancelarClick(Sender: TObject);
+    procedure tb_usuariosBeforeEdit(DataSet: TDataSet);
+    procedure btn_editarClick(Sender: TObject);
+    procedure btn_carregarClick(Sender: TObject);
+  private
+     procedure Limpar;
+     procedure BloquearTxt;
+     procedure CarregarDados;
+     procedure HabilitarTxt;
+  public
+    nomeImg : string;
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+
+
+
+procedure TForm1.BloquearTxt;
+begin
+  txt_nome.Enabled := false;
+  txt_sobrenome.Enabled := false;
+  txt_permissao.Enabled := false;
+  txt_idade.Enabled := false;
+end;
+
+procedure TForm1.btn_cancelarClick(Sender: TObject);
+begin
+  tb_usuarios.Cancel;
+  CarregarDados;
+  BloquearTxt;
+end;
+
+procedure TForm1.btn_carregarClick(Sender: TObject);
+var formato : string;
+begin
+  if OpenDialog1.Execute then
+  begin
+
+    imagem.Bitmap.LoadFromFile(OpenDialog1.FileName);
+    formato := ExtractFileExt(OpenDialog1.FileName);
+    nomeImg :=  floatTostr(tb_usuarios.FieldByName('id').Value) + '-' + tb_usuarios.FieldByName('nome').Value + formato;
+    imagem.Bitmap.SaveToFile(GetCurrentDir + '\Assets\img\' + nomeImg) ;
+
+  end;
+
+end;
+
+procedure TForm1.btn_editarClick(Sender: TObject);
+begin
+  tb_usuarios.Edit;
+  Button2.Enabled := false;
+  Button3.Enabled := false;
+  btn_carregar.Enabled := true;
+end;
+
+procedure TForm1.btn_excluirClick(Sender: TObject);
+begin
+  tb_usuarios.delete;
+  ShowMessage('Usuário Excluido');
+  CarregarDados;
+  BloquearTxt;
+end;
+
+procedure TForm1.btn_novoClick(Sender: TObject);
+begin
+
+  tb_usuarios.Insert;
+  limpar;
+  Button2.Enabled := false;
+  Button3.Enabled := false;
+  imagem.Bitmap.LoadFromFile(GetCurrentDir + '\Assets\img\no-image.png');
+
+end;
+
+procedure TForm1.btn_salvarClick(Sender: TObject);
+begin
+  tb_usuarios.Post;
+  ShowMessage('Usuário Salvo');
+  CarregarDados;
+  BloquearTxt;
+  Button2.Enabled := True;
+  Button3.Enabled := True;
+
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  {FDConnection1.Params.Database := GetCurrentDir+'\Assets\bd.accdb';
+  FDConnection1.Connected := true;
+
+  if FDConnection1.Connected = true then
+  begin
+    label1.Text := 'Conectado';
+    label1.FontColor := TAlphaColorRec.Lime;
+  end
+  else
+  begin
+    label1.Text := 'Erro';
+    label1.FontColor := TAlphaColorRec.Red;
+  end; }
+
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+  tb_usuarios.Prior;
+   CarregarDados;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+  tb_usuarios.Next;
+   CarregarDados;
+end;
+
+procedure TForm1.CarregarDados;
+begin
+    txt_nome.Text := tb_usuarios.FieldByName('nome').Value;
+    txt_sobrenome.Text := tb_usuarios.FieldByName('sobrenome').Value;
+    txt_permissao.Text := tb_usuarios.FieldByName('permissao').Value;
+    txt_idade.Text := tb_usuarios.FieldByName('idade').Value;
+    imagem.Bitmap.LoadFromFile(GetCurrentDir + '\Assets\img\' + tb_usuarios.FieldByName('foto').Value);
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+    FDConnection1.Params.Database := GetCurrentDir+'\Assets\bd.accdb';
+    FDConnection1.Connected := true;
+    tb_usuarios.TableName := 'usuarios';
+    tb_usuarios.Active := true;
+
+    CarregarDados;
+
+end;
+
+procedure TForm1.HabilitarTxt;
+begin
+txt_nome.Enabled := True;
+txt_sobrenome.Enabled := True;
+txt_permissao.Enabled := True;
+txt_idade.Enabled := True;
+
+Button2.Enabled := True;
+Button3.Enabled := True;
+
+end;
+
+procedure TForm1.Limpar;
+begin
+   txt_nome.Text := '';
+   txt_sobrenome.Text := '';
+   txt_permissao.Text := '';
+   txt_idade.Text := '';
+end;
+
+procedure TForm1.tb_usuariosBeforeEdit(DataSet: TDataSet);
+begin
+  HabilitarTxt;
+end;
+
+procedure TForm1.tb_usuariosBeforeInsert(DataSet: TDataSet);
+begin
+  HabilitarTxt;
+end;
+
+procedure TForm1.tb_usuariosBeforePost(DataSet: TDataSet);
+begin
+  tb_usuarios.FieldByName('nome').Value := txt_nome.Text;
+  tb_usuarios.FieldByName('sobrenome').Value := txt_sobrenome.Text;
+  tb_usuarios.FieldByName('permissao').Value := txt_permissao.Text;
+  tb_usuarios.FieldByName('idade').Value := txt_idade.Text;
+
+   if nomeImg = '' then
+   begin
+    tb_usuarios.FieldByName('foto').Value := 'no-image.png';
+   end
+   else
+   begin
+     tb_usuarios.FieldByName('foto').Value := nomeImg;
+   end;
+
+end;
+
+
+
+
+end.

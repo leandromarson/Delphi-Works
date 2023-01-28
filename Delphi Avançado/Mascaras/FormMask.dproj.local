@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/24 14:22:14.000.518,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 14:22:28.000.670,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\FormMask.dproj</Transaction>
+    <Transaction>2023/01/24 14:22:37.000.936,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit_Form.dfm</Transaction>
+    <Transaction>2023/01/24 14:22:37.000.936,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit_Form.pas</Transaction>
+    <Transaction>2023/01/24 14:22:59.000.285,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit_Form.dfm=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\U_Form.dfm</Transaction>
+    <Transaction>2023/01/24 14:22:59.000.285,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit_Form.pas=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\U_Form.pas</Transaction>
+    <Transaction>2023/01/24 14:23:29.000.409,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\FormMask.dproj=C:\Works\Delphi Works\Delphi Avançado\Mascaras\FormMask.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

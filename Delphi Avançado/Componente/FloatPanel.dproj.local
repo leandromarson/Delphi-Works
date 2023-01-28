@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/11/28 10:24:29.267,=rtl.dcp</Transaction>
+    <Transaction>2022/11/28 10:24:56.417,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\FloatPanel.dproj=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2022/11/28 10:30:48.422,=C:\Works\Delphi Works\Delphi Avançado\Componente\Panel1.pas</Transaction>
+    <Transaction>2022/11/28 10:30:48.530,=vcl.dcp</Transaction>
+    <Transaction>2022/11/28 10:39:39.985,C:\Works\Delphi Works\Delphi Avançado\Componente\FloatPanel.dproj=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\FloatPanel.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

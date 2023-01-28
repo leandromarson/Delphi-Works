@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/09 12:35:13.000.180,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 12:35:55.000.843,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 12:36:37.000.494,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/10 14:41:32.000.739,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/10 14:41:58.000.048,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\PROJETOS BD\BD ACCESS MANUAL\Unit1.fmx</Transaction>
+    <Transaction>2017/10/10 14:41:58.000.048,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\PROJETOS BD\BD ACCESS MANUAL\Unit1.pas</Transaction>
+    <Transaction>2017/10/10 14:42:05.000.941,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\PROJETOS BD\BD ACCESS MANUAL\bdAccessManual.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

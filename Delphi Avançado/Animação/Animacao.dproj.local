@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/27 10:43:50.000.685,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/27 10:47:39.000.290,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Works\Delphi Works\Delphi Avançado\Animação\u_animacao.fmx</Transaction>
+    <Transaction>2022/10/27 10:47:39.000.290,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Works\Delphi Works\Delphi Avançado\Animação\u_animacao.pas</Transaction>
+    <Transaction>2022/10/27 11:04:09.000.589,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Works\Delphi Works\Delphi Avançado\Animação\Animacao.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

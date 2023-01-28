@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 378
+  ClientWidth = 408
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Circle1: TCircle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = x00001493
+        Offset = -0.226708069443702700
+      end
+      item
+        Color = x003D26FF
+        Offset = -0.220496892929077100
+      end
+      item
+        Color = x008B8B8B
+        Offset = -0.211180120706558200
+      end
+      item
+        Color = x0000877E
+        Offset = -0.201863348484039300
+      end
+      item
+        Color = x32059000
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFFFE92F
+        Offset = 0.956521749496460000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Position.X = 72.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 177.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = Gradient
+    Stroke.Gradient.Points = <
+      item
+        Color = xFFDF0000
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFF94FC00
+        Offset = 1.000000000000000000
+      end>
+    Stroke.Gradient.StartPosition.X = 0.500000000000000000
+    Stroke.Gradient.StartPosition.Y = 1.000000000000000000
+    Stroke.Gradient.StopPosition.X = 0.499999970197677600
+    Stroke.Gradient.StopPosition.Y = 0.000000000000000000
+    Stroke.Thickness = 15.000000000000000000
+    Stroke.Dash = Dot
+    object FloatAnimation1: TFloatAnimation
+      Duration = 3.000000000000000000
+      OnFinish = FloatAnimation1Finish
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StopValue = 360.000000000000000000
+    end
+  end
+  object Button1: TButton
+    Cursor = crHandPoint
+    Position.X = 152.000000000000000000
+    Position.Y = 248.000000000000000000
+    Scale.X = 2.000000000000000000
+    Scale.Y = 2.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'playtoolbuttonbordered'
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object txt_duracao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 176.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 175.000000000000000000
+    Position.Y = 300.000000000000000000
+    Size.Width = 74.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'Dura'#231#227'o'
+    TabOrder = 3
+  end
+end

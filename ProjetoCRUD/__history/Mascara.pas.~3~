@@ -1,0 +1,30 @@
+unit Mascara;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Vcl.Controls, Vcl.StdCtrls, Vcl.Mask;
+
+type
+  TPessoa = (PFisica, PJuridica);
+  TMascara = class(TMaskEdit)
+  private
+    { Private declarations }
+  protected
+    { Protected declarations }
+  public
+    { Public declarations }
+  published
+    property Pessoa : TPessoa;
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('Mascara', [TMascara]);
+end;
+
+end.

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/25 08:33:25.000.411,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/26 14:00:58.000.122,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/26 15:34:24.000.682,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/26 15:35:02.000.927,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Works\Delphi Works\Delphi Banco de Dados\BD Access Manual\Unit1.fmx</Transaction>
+    <Transaction>2023/01/26 15:35:02.000.927,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Works\Delphi Works\Delphi Banco de Dados\BD Access Manual\Unit1.pas</Transaction>
+    <Transaction>2023/01/26 15:35:16.000.866,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Works\Delphi Works\Delphi Banco de Dados\BD Access Manual\dbaccesmanual.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

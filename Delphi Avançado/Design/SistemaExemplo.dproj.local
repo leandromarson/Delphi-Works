@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/24 14:55:29.000.181,=C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 14:56:09.000.383,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Works\Delphi Works\Delphi Avançado\Design\U_Principal.dfm</Transaction>
+    <Transaction>2023/01/24 14:56:09.000.383,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Works\Delphi Works\Delphi Avançado\Design\U_Principal.pas</Transaction>
+    <Transaction>2023/01/24 14:56:18.000.437,C:\Users\Leandro\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Works\Delphi Works\Delphi Avançado\Design\SistemaExemplo.dproj</Transaction>
+    <Transaction>2023/01/24 16:06:21.000.381,=C:\Works\Delphi Works\Delphi Avançado\Design\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 16:06:51.000.224,C:\Works\Delphi Works\Delphi Avançado\Design\Unit1.dfm=C:\Works\Delphi Works\Delphi Avançado\Design\U_Cad_Cliente.dfm</Transaction>
+    <Transaction>2023/01/24 16:06:51.000.224,C:\Works\Delphi Works\Delphi Avançado\Design\Unit1.pas=C:\Works\Delphi Works\Delphi Avançado\Design\U_Cad_Cliente.pas</Transaction>
+  </Transactions>
+</BorlandProject>

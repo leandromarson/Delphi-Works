@@ -1,0 +1,35 @@
+unit U_proex2;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TMySubComp = class(TComponent)
+  property ID:Integer;
+  property Descricao:String;
+  property Ativo:Boolean;
+  end;
+  PropriedadeEx2 = class(TComponent)
+  private
+    { Private declarations }
+  protected
+    { Protected declarations }
+  public
+    { Public declarations }
+  published
+    MySubComp1 : TMySubComp;
+    MySubComp2 : TMySubComp;
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('Exemplos', [PropriedadeEx2]);
+end;
+
+end.

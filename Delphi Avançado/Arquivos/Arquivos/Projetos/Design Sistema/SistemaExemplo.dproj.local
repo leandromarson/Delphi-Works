@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/09 12:35:13.000.180,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 12:35:55.000.843,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 12:36:37.000.494,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 13:51:44.492,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 13:52:08.127,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Design Sistema\U_Principal.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 13:52:08.127,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Design Sistema\U_Principal.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/10/09 13:52:16.394,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Design Sistema\SistemaExemplo.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/10/09 19:47:34.041,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Design Sistema\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 19:47:45.129,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Design Sistema\U_cadastro.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Design Sistema\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 19:47:45.129,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Design Sistema\U_cadastro.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Design Sistema\Unit1.dfm</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
